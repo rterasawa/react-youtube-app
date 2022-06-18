@@ -3,8 +3,25 @@ import React from 'react'
 import './header.css';
 
 const Header = () => {
+
+  const toggleSidebar = () => {
+    alert("clicked")
+  }
+
   return (
-    <div>Header</div>
+    <div className='header'>
+      <div className='navbar-icon'>
+        <a onClick={toggleSidebar}>
+          <span class="material-icons">
+            reorder
+          </span>
+        </a>
+      </div>
+
+      <div className='header-title'>
+        <h1>FavYoutuber</h1>
+      </div>
+    </div>
   )
 }
 

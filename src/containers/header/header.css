@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: var(--color-header-bg)
+}
+
+.navbar-icon {
+    margin: 10px;
+}
+
+.navbar-icon {
+    cursor: pointer;
+}
+
+.header-title {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

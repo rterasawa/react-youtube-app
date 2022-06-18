@@ -5,9 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className='app'>
-      Youtube Application
       <Header />
-      <Sidebar />
+      <div className="content">
+
+        <div className="side">
+          <Sidebar />
+        </div>
+
+        <div className="main-content">
+          Main Content
+        </div>
+      </div>
     </div>
   );
 }
