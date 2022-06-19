@@ -2,11 +2,7 @@ import React from 'react'
 
 import './header.css';
 
-const Header = () => {
-
-  const toggleSidebar = () => {
-    alert("clicked")
-  }
+const Header = ({ toggleSidebar }) => {
 
   return (
     <div className='header'>
