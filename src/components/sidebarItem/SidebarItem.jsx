@@ -11,6 +11,7 @@ const SidebarItem = ({ icon, text }) => {
     return (
     <div className='sidebar-item'>
         <div onClick={menuItemHandler} className='sidebar-content'>
+            
             <div className='sidebar-item-icon'>
                 <span className="material-icons">
                     {icon}

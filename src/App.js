@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Header, Sidebar } from "./containers"
+import { Header, Sidebar, About, FindFavorite } from "./containers"
 
 import './App.css';
 
@@ -13,7 +13,6 @@ function App() {
       ? setToggleSidebar(false) 
       : setToggleSidebar(true)
     }
-    console.log(toggleSidebar)
   }
 
   return (
@@ -28,7 +27,8 @@ function App() {
         )}
 
         <div className="main-content">
-          Main Content
+          <About />
+          <FindFavorite />
         </div>
       </div>
     </div>
