@@ -1,5 +1,5 @@
-.btn {
-    background-color: var(--color-button-red);
+.queryButton {
+    background-color: var(--color-button-gray);
     border: none;
     padding: 10px;
     color: white;
@@ -7,4 +7,8 @@
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+}
+
+.queryButton:hover {
+    background-color: var(--color-button-red);
 }

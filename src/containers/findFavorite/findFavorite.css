@@ -1,0 +1,16 @@
+.findFavorite-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-btn {
+    display: flex;
+    margin: 10px 0;
+}
+
+.findFavorite-search-btn {
+    display: flex;
+    justify-content: right;
+}
